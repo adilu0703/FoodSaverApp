@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_HomeAdmin"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home">
+        </item>
+        <item android:id="@+id/nav_AllUsersAdmin"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="All Users">
+        </item>
+        <item android:id="@+id/nav_WarnedUsersAdmin"
+            android:icon="@drawable/ic_baseline_edit_note_24"
+            android:title="Low Rated Users">
+        </item>
+        <item android:id="@+id/nav_adminchatlist"
+            android:icon="@drawable/ic_baseline_edit_note_24"
+            android:title="My Chat List">
+        </item>
+        <item android:id="@+id/nav_adminLogout"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="Logout">
+        </item>
+f
+    </group>
+
+</menu>

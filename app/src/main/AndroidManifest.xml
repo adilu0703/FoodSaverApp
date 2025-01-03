@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.fyp_khanabachao">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fyplogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FYP_KhanaBachao"
+        tools:replace="label">
+        <activity
+            android:name=".paymentReceipt"
+            android:exported="false" />
+        <activity
+            android:name=".AppNotification"
+            android:exported="true" />
+        <activity
+            android:name=".TestAdmin"
+            android:exported="true" />
+        <activity
+            android:name=".Test"
+            android:exported="true" />
+        <activity
+            android:name=".OfferSenderAccept_PostDetail"
+            android:exported="true" />
+        <activity
+            android:name=".DrawerBaseActivityAdmin"
+            android:exported="true" />
+        <activity
+            android:name=".ContactAdmin"
+            android:exported="true" />
+        <activity
+            android:name=".OfferRequestAccepted_MyFoodDetail"
+            android:exported="true" />
+        <activity
+            android:name=".OfferRequestAcceptedDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".OfferRequestReceived_MyFoodDetail"
+            android:exported="true" />
+        <activity
+            android:name=".OfferRequestReceivedDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".Offer_Sender_Accept_Dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".OfferSenderRequestDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".fooddrive"
+            android:exported="true" />
+        <activity
+            android:name=".dashboardAdmin"
+            android:exported="true" />
+        <activity
+            android:name=".AdminUserListDetail"
+            android:exported="true" />
+        <activity
+            android:name=".AdminWarningUserList"
+            android:exported="true" />
+        <activity
+            android:name=".AdminAllUserList"
+            android:exported="true" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="true" />
+        <activity
+            android:name=".SenderAccepted_DetailPublic"
+            android:exported="true" />
+        <activity
+            android:name=".RequestAccepted_MyFoodDetail"
+            android:exported="true" />
+        <activity
+            android:name=".RequestReceived_MyFoodDetail"
+            android:exported="true" />
+        <activity
+            android:name=".FullScreenImage"
+            android:exported="true" />
+        <activity
+            android:name=".PostFoodDetailPublic"
+            android:exported="true" />
+        <activity
+            android:name=".PostUpdate"
+            android:exported="true" />
+        <activity
+            android:name=".PostFoodDetail"
+            android:exported="true" />
+        <activity
+            android:name=".PostConsumerDashBoard"
+            android:exported="true" />
+        <activity
+            android:name=".PostListView"
+            android:exported="true" />
+        <activity
+            android:name=".UploadPost"
+            android:exported="true" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RequestAcceptedDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".RequestReceivedDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".SenderAcceptDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".SenderRequestDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".CharityUserListDetail"
+            android:exported="true" />
+        <activity
+            android:name="com.CharityUsersList"
+            android:exported="true" />
+        <activity
+            android:name=".SendNeedyLocationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FoodDetailPublic"
+            android:exported="true" />
+        <activity
+            android:name=".RestaurantItems"
+            android:exported="true" />
+        <activity
+            android:name=".HomeItems"
+            android:exported="true" />
+        <activity
+            android:name=".updateMyFood"
+            android:exported="true" />
+        <activity
+            android:name=".MyFoodUpload"
+            android:exported="true" />
+        <activity
+            android:name=".FoodDetail"
+            android:exported="true" />
+        <activity
+            android:name=".FoodUpload_01"
+            android:exported="true" />
+        <activity
+            android:name=".consumerProfile"
+            android:exported="true" />
+        <activity
+            android:name=".ConsumerDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".consumerSignup"
+            android:exported="true" />
+        <activity
+            android:name=".consumerLOGIN"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2chooseuser"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

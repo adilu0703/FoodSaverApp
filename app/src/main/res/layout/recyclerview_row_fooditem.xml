@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fooditemcardviewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:layout_margin="10dp"
+        app:cardUseCompatPadding="true"
+        android:padding="4dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#F1F1F1"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="18dp"
+            android:elevation="10dp"
+            >
+            <ImageView
+                android:id="@+id/fooditemimgid"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/fpic1"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/todoimg" />
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/fooditemtitleid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10sp"
+                android:layout_toStartOf="@id/fooditemsourceid"
+                android:maxLines="1"
+                android:text="@string/titlef"
+                android:textColor="@color/teal_700"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/fooditemsourceid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="5dp"
+                android:text="@string/sourcedash"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:id="@+id/fooditemdescriptionid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/descriptionf"
+                android:textSize="15sp"
+                android:layout_marginStart="10sp"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            >
+
+            <TextView
+                android:id="@+id/quanityviewid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="10sp"
+                android:text="@string/quantityheadd"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fooditemquantityid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_toRightOf="@id/quanityviewid"
+                android:text="@string/quantityf"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/expiryiconid"
+                android:layout_width="28sp"
+                android:layout_height="25sp"
+                android:layout_marginStart="5dp"
+                android:layout_toStartOf="@id/fooditemexpiryid"
+                android:src="@drawable/expiry" />
+
+            <TextView
+                android:id="@+id/fooditemexpiryid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="2sp"
+                android:maxLines="1"
+                android:text="@string/expiryd"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="5dp"
+            android:padding="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/deliveryiconid"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/delivery2" />
+
+            <TextView
+                android:id="@+id/fooditemdeliveryid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="9sp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="3dp"
+                android:layout_toStartOf="@id/cashiconid"
+                android:layout_toEndOf="@+id/deliveryiconid"
+                android:text="@string/delivery_option"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/cashiconid"
+                android:layout_width="33sp"
+                android:layout_height="36sp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginBottom="9dp"
+                android:layout_toStartOf="@id/fooditempriceid"
+                android:src="@drawable/cash" />
+
+            <TextView
+                android:id="@+id/fooditempriceid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/rs_299F"
+                android:textColor="@color/teal_700"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="5dp">
+
+            <ImageView
+                android:id="@+id/homeiconid"
+                android:layout_width="33sp"
+                android:layout_height="40sp"
+                android:src="@drawable/address2"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="5dp"
+                >
+                <TextView
+                    android:id="@+id/fooditemaddressid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/addressdash"
+                    android:textSize="15sp"
+                    android:layout_marginStart="3sp"
+                    android:textColor="@color/black"
+                    android:maxLines="1"
+                    />
+                <TextView
+                    android:id="@+id/fooditemcityid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/citydash"
+                    android:textSize="15sp"
+                    android:layout_marginStart="3sp"
+                    android:textColor="@color/black"
+                    android:maxLines="1"
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>

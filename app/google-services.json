@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "494813383020",
+    "firebase_url": "https://fyp-kb-default-rtdb.firebaseio.com",
+    "project_id": "fyp-kb",
+    "storage_bucket": "fyp-kb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494813383020:android:c6431ce24b73454758cb49",
+        "android_client_info": {
+          "package_name": "com.example.fyp_khanabachao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494813383020-3k6khsqujkdkfj0kea8l677c6033ucb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1aoeUlubtpppgjN_lpxpipYfbSQA7nm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494813383020-3k6khsqujkdkfj0kea8l677c6033ucb4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494813383020:android:78b658b0fda0871158cb49",
+        "android_client_info": {
+          "package_name": "com.pk.nu.khanabachaoadminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494813383020-3k6khsqujkdkfj0kea8l677c6033ucb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1aoeUlubtpppgjN_lpxpipYfbSQA7nm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494813383020-3k6khsqujkdkfj0kea8l677c6033ucb4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

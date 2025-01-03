@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/nav_Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home">
+    </item>
+    <item android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile">
+    </item>
+    <item android:id="@+id/nav_UitemList"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="My Food Items">
+    </item>
+    <item android:id="@+id/nav_showmyPosts"
+        android:icon="@drawable/ic_baseline_edit_note_24"
+        android:title="My Custom Orders">
+    </item>
+    <item android:id="@+id/nav_UploadItems"
+        android:icon="@drawable/ic_baseline_list_alt_24"
+        android:title="Upload Food Items">
+    </item>
+    <item android:id="@+id/nav_AllItems"
+        android:icon="@drawable/ic_baseline_edit_note_24"
+        android:title="All Food Items">
+    </item>
+    <item android:id="@+id/nav_RItems"
+        android:icon="@drawable/ic_baseline_edit_note_24"
+        android:title="Resturant-made Food Items">
+    </item>
+    <item android:id="@+id/nav_HItems"
+        android:icon="@drawable/ic_baseline_edit_note_24"
+        android:title="Home-made Food Items">
+    </item>
+    <item android:id="@+id/nav_uploadposts"
+        android:icon="@drawable/ic_baseline_list_alt_24"
+        android:title="Create Custom Order">
+    </item>
+    <item android:id="@+id/nav_showPosts"
+        android:icon="@drawable/ic_baseline_edit_note_24"
+        android:title="All Custom Orders">
+    </item>
+    <item android:id="@+id/nav_charity"
+        android:icon="@drawable/ic_baseline_edit_note_24"
+        android:title="Charity Organizations">
+    </item>
+    <item android:id="@+id/nav_chatlist"
+        android:icon="@drawable/ic_baseline_edit_note_24"
+        android:title="My Chat List">
+    </item>
+    <item android:id="@+id/nav_notif"
+        android:icon="@drawable/ic_baseline_edit_note_24"
+        android:title="My Notifications">
+    </item>
+    <item android:id="@+id/nav_chatadmin"
+        android:icon="@drawable/ic_baseline_edit_note_24"
+        android:title="Contact Admin">
+    </item>
+
+
+    <item android:id="@+id/nav_Logout"
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:title="Logout">
+    </item>
+
+</group>
+
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/senderreqnavid"
+        android:title="@string/my_requested_items"
+        android:icon="@drawable/give"
+        />
+
+    <item
+        android:id="@+id/senderaccnavid"
+        android:title="@string/my_accepted_items"
+        android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+        />
+
+</menu>

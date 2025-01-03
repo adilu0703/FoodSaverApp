@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/postreceiverreqnavid"
+        android:title="Offers Received"
+        android:icon="@drawable/give"
+        />
+
+    <item
+        android:id="@+id/postreceiveraccnavid"
+        android:title="Offers Accepted"
+        android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+        />
+
+</menu>

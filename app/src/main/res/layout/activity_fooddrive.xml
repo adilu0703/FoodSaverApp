@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fooddrive"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/sansbold"
+            android:padding="7dp"
+            android:text="@string/food_drivezz"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+
+        >
+
+        <ImageView
+            android:id="@+id/uploadfoodimgid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/contactcharity"
+            android:onClick="contactCharityBtn"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/charityfoodprep"
+            android:onClick="foodPrepBtn"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
